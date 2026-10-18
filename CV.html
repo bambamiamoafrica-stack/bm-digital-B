@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#175cd3">
+  <meta name="description" content="BM Digital, informaticien polyvalent. Découvrez mes compétences, mes projets et mes services informatiques.">
+  <title>BM Digital | Informaticien polyvalent</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- En-tête et navigation -->
+  <header class="header">
+    <a class="brand" href="#accueil" aria-label="BM Digital, accueil">
+      <span class="brand-icon">BM</span>
+      <span>BM <strong>Digital</strong></span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Ouvrir le menu" aria-expanded="false"
+      aria-controls="navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#competences" class="nav-link">Compétences</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#projets" class="nav-link">Projets</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <button class="theme-toggle" id="theme-toggle"
+        aria-label="Activer le mode sombre" title="Changer de thème">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Accueil -->
+    <section class="hero section" id="accueil">
+      <div class="hero-content">
+        <span class="availability">
+          <span class="availability-dot"></span>
+          Bienvenue sur mon espace professionnel
+        </span>
+
+        <p class="eyebrow">INFORMATIQUE • TECHNOLOGIE • NUMÉRIQUE</p>
+
+        <h1>
+          Bonjour, je suis <span class="blue-text">BAMBA MIAMO.</span>
+        </h1>
+
+        <h2>Informaticien polyvalent</h2>
+
+        <p class="hero-description">
+          Passionné par les technologies numériques, l'informatique
+          et les solutions digitales, je développe mes compétences
+          pour accompagner les particuliers et les professionnels
+          dans leurs projets.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projets" class="button button-primary">
+            Découvrir mes projets <span>↗</span>
+          </a>
+          <a href="#contact" class="button button-outline">
+            Me contacter
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span>Retrouve-moi aussi sur :</span>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+            rel="noopener noreferrer">BambaMiamo ↗</a>
+          <a href="https://github.com/" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <div class="photo-decoration"></div>
+          <img
+            src="bm-digital.jpeg"
+            alt="Photo de profil de BM Digital"
+            class="profile-photo"
+            id="profile-photo"
+          >
+          <div class="photo-fallback" id="photo-fallback" hidden>
+            <span>BM</span>
+            <p>Ajoute ta photo dans le dossier images.</p>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-top">
+          <span class="floating-icon">💻</span>
+          <div>
+            <strong>Informatique</strong>
+            <small>Solutions numériques</small>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+          <span class="floating-icon">✦</span>
+          <div>
+            <strong>BM Digital</strong>
+            <small>Apprendre · Créer · Évoluer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section class="section section-muted" id="apropos">
+      <div class="section-heading">
+        <p class="eyebrow">QUI SUIS-JE ?</p>
+        <h2>À propos de <span class="blue-text">moi</span></h2>
+        <p>Un aperçu de mon profil et de mes ambitions professionnelles.</p>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-mark">
+          <div class="big-bm">BM<span>.</span></div>
+          <p>Le numérique au service des idées.</p>
+        </div>
+
+        <div class="about-content">
+          <h3>La technologie, une passion et un domaine d'avenir.</h3>
+          <p>
+            Je suis Bamba Miamo, un profil orienté vers l'informatique
+            polyvalente et les technologies numériques. Je m'intéresse
+            à la création de sites web, aux outils informatiques,
+            à la résolution de problèmes et à la transformation digitale.
+          </p>
+          <p>
+            Mon objectif est de renforcer continuellement mes compétences,
+            de réaliser des projets concrets et de proposer des solutions
+            simples, pratiques et adaptées aux besoins des utilisateurs.
+          </p>
+
+          <div class="about-facts">
+            <div>
+              <span class="fact-icon">✓</span>
+              <span>Curiosité et apprentissage</span>
+            </div>
+            <div>
+              <span class="fact-icon">✓</span>
+              <span>Résolution de problèmes</span>
+            </div>
+            <div>
+              <span class="fact-icon">✓</span>
+              <span>Intérêt pour le numérique</span>
+            </div>
+            <div>
+              <span class="fact-icon">✓</span>
+              <span>Créativité et évolution</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="section" id="competences">
+      <div class="section-heading">
+        <p class="eyebrow">MON SAVOIR-FAIRE</p>
+        <h2>Mes <span class="blue-text">compétences</span></h2>
+        <p>
+          Les domaines que je pratique ou que je souhaite développer.
+        </p>
+      </div>
+
+      <div class="card-grid">
+        <article class="info-card">
+          <div class="card-icon">🖥️</div>
+          <h3>Maintenance informatique</h3>
+          <p>
+            Diagnostic de problèmes, installation de logiciels
+            et entretien des ordinateurs.
+          </p>
+          <span class="card-tag">Informatique</span>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">🌐</div>
+          <h3>Création de sites web</h3>
+          <p>
+            Apprentissage et réalisation de pages web avec
+            HTML, CSS et JavaScript.
+          </p>
+          <span class="card-tag">Développement web</span>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">📄</div>
+          <h3>Bureautique</h3>
+          <p>
+            Mise en forme de documents, rédaction et organisation
+            de contenus numériques.
+          </p>
+          <span class="card-tag">Outils bureautiques</span>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">📱</div>
+          <h3>Solutions numériques</h3>
+          <p>
+            Découverte des applications, des outils digitaux
+            et de leurs possibilités.
+          </p>
+          <span class="card-tag">Transformation digitale</span>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">🔐</div>
+          <h3>Sécurité numérique</h3>
+          <p>
+            Bonnes pratiques pour protéger les comptes,
+            les fichiers et les données personnelles.
+          </p>
+          <span class="card-tag">Bonnes pratiques</span>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">🤝</div>
+          <h3>Assistance informatique</h3>
+          <p>
+            Accompagnement des utilisateurs et recherche
+            de solutions aux difficultés courantes.
+          </p>
+          <span class="card-tag">Support utilisateur</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-muted" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">CE QUE JE PEUX PROPOSER</p>
+        <h2>Mes <span class="blue-text">services</span></h2>
+      </div>
+
+      <div class="service-list">
+        <article class="service-item">
+          <span class="service-number">01</span>
+          <div>
+            <h3>Création de documents numériques</h3>
+            <p>CV, lettres, documents et mise en page professionnelle.</p>
+          </div>
+          <span class="service-arrow">↗</span>
+        </article>
+
+        <article class="service-item">
+          <span class="service-number">02</span>
+          <div>
+            <h3>Création de sites web</h3>
+            <p>Pages de présentation et portfolios adaptés aux mobiles.</p>
+          </div>
+          <span class="service-arrow">↗</span>
+        </article>
+
+        <article class="service-item">
+          <span class="service-number">03</span>
+          <div>
+            <h3>Assistance informatique</h3>
+            <p>Aide à l'utilisation des outils numériques et logiciels.</p>
+          </div>
+          <span class="service-arrow">↗</span>
+        </article>
+      </div>
+      <p class="small-note">
+      </p>
+    </section>
+
+    <!-- Projets -->
+    <section class="section" id="projets">
+      <div class="section-heading">
+        <p class="eyebrow">MES RÉALISATIONS</p>
+        <h2>Mes <span class="blue-text">projets</span></h2>
+        <p>
+
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-art project-art-blue">
+            <span class="art-symbol">⌘</span>
+            <span class="art-label">WEB DESIGN</span>
+          </div>
+          <div class="project-content">
+            <span class="project-category">DÉVELOPPEMENT WEB</span>
+            <h3>Mon portfolio</h3>
+            <p>
+              Un site personnel pour présenter mon profil,
+              mes compétences et mes projets.
+            </p>
+            <div class="project-footer">
+              <span>HTML · CSS · JavaScript</span>
+              <a href="#accueil" aria-label="Retour au portfolio">↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art project-art-purple">
+            <span class="art-symbol">▦</span>
+            <span class="art-label">DIGITAL</span>
+          </div>
+          <div class="project-content">
+            <span class="project-category">APPLICATION NUMÉRIQUE</span>
+            <h3>Projet d'application</h3>
+            <p>
+              Présente ici une application que tu as conçue,
+              développée ou à laquelle tu as contribué.
+            </p>
+            <div class="project-footer">
+              <span>Conception · Interface</span>
+              <span class="coming-soon">À compléter</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-art project-art-cyan">
+            <span class="art-symbol">⌘</span>
+            <span class="art-label">IT SUPPORT</span>
+          </div>
+          <div class="project-content">
+            <span class="project-category">INFORMATIQUE</span>
+            <h3>Projet informatique</h3>
+            <p>
+              Décris un exercice pratique, une installation
+              ou un problème informatique que tu as résolu.
+            </p>
+            <div class="project-footer">
+              <span>Assistance · Outils IT</span>
+              <span class="coming-soon">À compléter</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-muted" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">ENTRONS EN CONTACT</p>
+        <h2>Parlons de ton <span class="blue-text">projet</span></h2>
+        <p>
+          Une question, une proposition ou un projet numérique ?
+          Tu peux m'envoyer un message.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Mes coordonnées</h3>
+
+          <div class="contact-detail">
+            <span class="contact-icon">✉</span>
+            <div>
+              <small>E-mail</small>
+              <a href="bambamiamo79@email.com">
+                bambamiamo79@email.com
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-icon">📍</span>
+            <div>
+              <small>Localisation</small>
+              <p>Côte d'Ivoire (Abidjan)</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-icon">🌐</span>
+            <div>
+              <small>Identité professionnelle</small>
+              <p>BM Digital</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ton nom</label>
+              <input id="name" name="name" type="text"
+                placeholder="Ex. : Jean Kouassi" required maxlength="100">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ton e-mail</label>
+              <input id="email" name="email" type="email"
+                placeholder="nom@exemple.com" required maxlength="150">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input id="subject" name="subject" type="text"
+              placeholder="Objet de ton message" required maxlength="150">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Ton message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Explique-moi ton projet..." required
+              maxlength="5000"></textarea>
+          </div>
+
+          <button class="button button-primary submit-button" type="submit">
+            Préparer mon e-mail <span>↗</span>
+          </button>
+
+          <p class="form-note" id="form-status" aria-live="polite">
+
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="footer">
+    <a class="brand footer-brand" href="#accueil">
+      <span class="brand-icon">BM</span>
+      <span>BM <strong>Digital</strong></span>
+    </a>
+
+    <p>© <span id="year"></span> BM Digital. Tous droits réservés.</p>
+    <a class="back-top" href="#accueil">Retour en haut 😎</a>
+  </footer>
+
+</body>
+</html>
